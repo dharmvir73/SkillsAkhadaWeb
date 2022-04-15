@@ -5,12 +5,11 @@ import { Matches } from "./components/Matches"
 function App()  {
   return (
     <div className="App">
-    
-
+   
     <Intro />
     <Matches />
     <Navbar />
-     
+    
     </div>
   );
 }

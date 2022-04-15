@@ -11,7 +11,6 @@ const TEXTS = [
     "Player Battles",
     "Tournaments",
     "Earn Money",
-    
   ];
 
 export const Intro = () => {
@@ -29,13 +28,12 @@ export const Intro = () => {
 
     return(
         
-        <div className="w-[100%] h-[115vh] bg-[#141414] flex flex-row ">
+        <div className="w-[100%] h-[115vh] bg-[#141414] flex flex-row relative">
                
-             <div className="opacity-[0.4] h-[10px] ">
-            <Particle/>
-            </div>
-
-            <div className="w-2/4 h-100%  relative">       
+             <div className="opacity-[0.4]">
+             <Particle />
+             </div>
+            <div className="w-2/4 h-[100%] relative">       
                 <div className="w-56 h-56 bg-[#e50914] rounded-full ml-20 mt-[200px] absolute"></div>
                 <div className="w-10 h-10 bg-[#e50914] rounded-full ml-14 mt-[180px] absolute"></div>
                 <img src={Banner} alt="" className="h-[650px] ml-32 absolute bottom-0" />
@@ -67,7 +65,7 @@ export const Intro = () => {
                     </div>
                 </div>
             </div>           
-        
+          
         </div>
     );
 }

@@ -1,9 +1,8 @@
-import Particles from "react-tsparticles";
- 
+import Particles from "react-tsparticles"
+import "./Particles-config.css"
 
 
   export const Particle = () => {
- 
 
   return (
     <Particles
@@ -67,7 +66,7 @@ import Particles from "react-tsparticles";
           },
           number: {
             density: {
-              enable: true,
+              enable: false,
               area: 800,
             },
             value: 90,
@@ -82,6 +81,10 @@ import Particles from "react-tsparticles";
             random: true,
             value: 5,
           },
+        },
+        fullScreen:{
+          enable: false,
+          zIndex:0,
         },
         detectRetina: true,
       }}

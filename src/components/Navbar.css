@@ -1,6 +1,8 @@
-
-
 #Nav{
-    position: fixed;
     width: 100%;
+    height: 7rem;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    margin-top: 0;  
 }
