@@ -25,7 +25,7 @@ export const Navbar = () => {
 
   
   return (
-    <div className={`${isScrolled && "w-[100%] h-28 flex flex-row mt-0 fixed top-0 bg-[#000] transition duration-[0.9s] ease-in-out"}`} >
+    <div className={`${isScrolled && "w-[100%] h-28 flex flex-row mt-0 fixed top-0 bg-[#1c1c1c] transition duration-[0.9s] ease-in-out"}`} >
     <div className="w-[100%] h-28 flex flex-row mt-0 fixed top-0">
         <div className="w-2/4 h-[100%] flex">
             <div className="w-2/4 h-[100%]  ml-0 flex justify-center items-center">
